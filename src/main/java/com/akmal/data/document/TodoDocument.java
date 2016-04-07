@@ -4,9 +4,6 @@ import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.solr.client.solrj.beans.Field;
 import org.springframework.data.annotation.Id;
 
-/**
- * @author Petri Kainulainen
- */
 public class TodoDocument {
 
     public static final String FIELD_DESCRIPTION = "description";

@@ -9,11 +9,11 @@ import com.akmal.data.document.TodoDocument;
  */
 public interface TodoIndexService {
 
-    public void addToIndex(Todo todoEntry);
+    public void addToIndex(TodoDocument todoEntry);
 
     public void deleteFromIndex(Long id);
 
     public List<TodoDocument> search(String searchTerm);
 
-    public void update(Todo todoEntry);
+    public void update(TodoDocument todoEntry);
 }
